@@ -1,0 +1,239 @@
+* {
+    margin: 3px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Add container adjustments */
+.invoice-container {
+    position: relative;
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.company-info,
+.invoice-info {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.company-info {
+    font-size: 14px;
+}
+
+.invoice-info {
+    text-align: right;
+}
+
+.logo-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo-upload img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+/* Upload Logo Section - Adjustments */
+.upload-logo-section {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 120px;
+    text-align: center;
+}
+
+.add-logo-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+}
+
+.upload-svg {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+.upload-section-note {
+    font-size: 10px;
+    text-align: center;
+}
+
+#org_logo {
+    width: 50px;
+    height: 50px;
+}
+
+/* Flexbox for Company Info and Upload Logo */
+.invoice-details {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.company-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.company-address {
+    width: 65%;
+}
+
+.upload-logo-section {
+    width: 30%;
+    text-align: right;
+}
+
+.upload-logo-section label {
+    cursor: pointer;
+}
+
+.upload-logo-section .add-logo-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #5b9aff;
+}
+
+.upload-logo-section .upload-svg {
+    width: 70px;
+    height: 70px;
+}
+
+.upload-section-note {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #666;
+}
+
+/* Button Styling */
+button {
+    background-color: #3b82f6;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #2563eb;
+}
+
+.generate-button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Invoice Table */
+.invoice-table th {
+    background-color: #000;
+    color: #fff;
+}
+
+.invoice-table td {
+    padding: 10px;
+}
+
+/* Add Line Item Button */
+.add-item-btn {
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-item-btn:hover {
+    background-color: #218838;
+}
+
+/* Footer Section */
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 12px;
+    color: #999;
+}
+
+/* Responsive Table */
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 20px;
+}
+
+.table-responsive table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-responsive th,
+.table-responsive td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.table-responsive th {
+    background-color: #000;
+    color: #fff;
+}
+    /* Styles for scrollable dropdowns */
+    .scrollable-dropdown {
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .scrollable-dropdown select {
+        width: 15%;
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+
+    /* Background Image */
+    body {
+        background-image: url('taxpic.avif');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
